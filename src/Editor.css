@@ -1,0 +1,13 @@
+.title{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 15px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.main{
+    min-height:50vh
+}

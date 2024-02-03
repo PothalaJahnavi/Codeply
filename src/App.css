@@ -1,0 +1,21 @@
+.sandbox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:10px;
+    background-color: rgb(143, 139, 139);
+    padding: 1%;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.pane{
+    min-height: 50vh;
+    width: 100%;
+}
+body{
+    margin: 0;
+    background-color: rgb(143, 139, 139);
+    overflow-x: hidden;
+}
+.output{
+    background-color: rgb(252, 250, 248);
+}
